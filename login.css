@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+.login-page{
+    width: 100%;
+    height: 100vh;
+    background-image: url('natural\ 6.jpg');
+    background-size: 100% 100%;
+}
+
+.login-page .login-from{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    width: 500px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.01);
+    filter: blur(50%);
+}
+.login-page .login-from .login-title{
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.login-page .login-from input ,.login-page .login-from label{
+    display: block;
+    width: 100%;
+}
+.login-page .login-from input{
+    padding: 10px;
+    outline: none;
+}
+.login-page .login-from .email-input,
+.login-page .login-from .password-input{
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+}
+.login-page .login-from .email-input, 
+.login-page .login-from .password-input label{
+    padding-bottom: 3px;
+}
+.login-page .login-from .forget-link{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.login-page .login-from .forget-link a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.login-page .login-from .submit-buttom{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+.login-page .login-from .submit-buttom input{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 56, 6);
+    border: none;
+    
+}
+.login-page .login-from .contact-with-btn{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.login-page .login-from .contact-with-btn a{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.login-page .login-from .your-comment {
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+.login-page .login-from .your-comment a {
+    color:#fff;
+    
+}
+
+.login-page .login-from{
+    animation-: color 5s infinite;
+}
+@keyframes color{
+    
+}
